@@ -7,7 +7,8 @@ public class ArraySortedOrNot {
         boolean flag=true;
         int arr[]=new int[size];
         System.out.println("Enter Elements In array");
-        for(int i=0;i<size;i++){
+        for(int i=0;i<size;i++)
+        {
             arr[i]=sc.nextInt();
         }
         for(int i=0;i<size-1;i++){
