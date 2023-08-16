@@ -13,7 +13,7 @@ public class ArraySortedOrNot {
             arr[i]=sc.nextInt();
         }
         for(int i=0;i<size-1;i++){
-            if(arr[i]<arr[i+1]){
+            if(arr[i]<=arr[i+1]){
                 ascending_flag=true;
             }else{
                 ascending_flag=false;
@@ -24,7 +24,7 @@ public class ArraySortedOrNot {
             System.out.println("Array Is Sorted In Assending Order");
         }else{
             for(int i=0;i<size-1;i++){
-            if(arr[i]>arr[i+1]){
+            if(arr[i]>=arr[i+1]){
                 descending_flag=true;
             }else{
                 descending_flag=false;
