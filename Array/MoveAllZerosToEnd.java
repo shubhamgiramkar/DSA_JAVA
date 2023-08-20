@@ -26,6 +26,7 @@ public static void MoveZeros(int[] arr,int size){
         }
         arr[size-1]=temp;
         count=0;
+        
     }
     System.out.println("After Operation");
     for(int i=0;i<size;i++){
