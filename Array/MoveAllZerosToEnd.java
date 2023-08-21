@@ -23,6 +23,7 @@ public static void MoveZeros(int[] arr,int size){
          count++;
          for(int j=i;j<size-1;j++){
          arr[j]=arr[j+1];}
+        
         }
         arr[size-1]=temp;
         count=0;
