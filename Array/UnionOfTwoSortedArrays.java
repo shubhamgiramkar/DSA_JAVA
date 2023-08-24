@@ -44,16 +44,9 @@ public class UnionOfTwoSortedArrays{
     for(int i=0;i<size3;i++){
       while(arr[i]!=arr[i+j]){
         
-        arr4[i]=arr[i]
+        arr4[i]=arr[i];
       }
     }
-
-
-    
-    
-    
-   
-
-
-   } 
+ 
+  } 
 }
