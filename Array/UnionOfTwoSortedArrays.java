@@ -40,6 +40,7 @@ public class UnionOfTwoSortedArrays{
     }
     int[] arr4={};
     Arrays.sort(arr);
+    
     int j=0;
     for(int i=0;i<size3;i++){
       while(arr[i]!=arr[i+j]){
